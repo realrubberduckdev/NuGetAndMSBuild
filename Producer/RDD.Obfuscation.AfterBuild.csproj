@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>RDD.Obfuscation.AfterBuild</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ConfuserEx.Final" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RDD.Obfuscation.AfterBuild.targets" Pack="True" PackagePath="build" />
+  </ItemGroup>
+</Project>

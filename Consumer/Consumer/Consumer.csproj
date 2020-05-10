@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Confuser.crproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RDD.Obfuscation.AfterBuild" Version="*" />
+  </ItemGroup>
+
+</Project>
