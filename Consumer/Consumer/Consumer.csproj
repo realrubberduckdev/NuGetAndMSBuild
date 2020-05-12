@@ -9,7 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="RDD.Obfuscation.AfterBuild" Version="*" />
+    <PackageReference Include="RDD.Obfuscation.AfterBuild" Version="*">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
