@@ -7,3 +7,6 @@ Start-Process "https://github.com/yck1509/ConfuserEx"
 Start-Process "https://www.nuget.org/packages/ConfuserEx.Final/"
 Start-Process "NuGet & MSBuild.pptx"
 code .
+code ./Consumer
+explorer .
+Start-Process devenv
